@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Next.js | News",
+  description: "This is new page",
+};
+
 const NewsPage = () => {
   return (
     <div>
