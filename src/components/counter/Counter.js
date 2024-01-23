@@ -7,8 +7,18 @@ const Counter = () => {
     <div>
       <h2>Counter: {counter}</h2>
 
-      <button onClick={() => setCounter(counter + 1)}>Increase</button>
-      <button onClick={() => setCounter(counter - 1)}>Decrease</button>
+      <button
+        className="btn btn-outline"
+        onClick={() => setCounter(counter + 1)}
+      >
+        Increase
+      </button>
+      <button
+        className="btn btn-outline ml-4"
+        onClick={() => setCounter(counter - 1)}
+      >
+        Decrease
+      </button>
     </div>
   );
 };
